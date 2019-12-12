@@ -6,7 +6,8 @@ authors = ["susu <31542614@qq.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-
+coverage = "^4.5.4"
+coveralls = "^1.8.2"
 [tool.poetry.dev-dependencies]
 
 [build-system]

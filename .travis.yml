@@ -10,8 +10,6 @@ matrix:
       dist: xenial
 install:
   - pip install poetry
-  - pip install coverage
-  - pip install coveralls
   - poetry install -vvv
 script:
   - poetry run coverage run --source=hog_apitest -m pytest -v
